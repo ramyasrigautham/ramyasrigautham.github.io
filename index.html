@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Ramya Sri Gautham</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+        <h1>Hi!!! <br /><br /> This is<br />
+            Ramya Sri Gautham</h1>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">Ramya Sri Gautham</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="generic.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/ramyasrigautham" class="icon brands fa-linkedin"><span class="label">Linked In</span></a></li>
+            <li><a href="https://github.com/ramyasrigautham" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- About Section -->
+        <article class="post featured">
+            <header class="major">
+                <span class="date" id="current-date"></span>
+                <a href="#" class="image main"><img src="images/profile_pic.jpg" alt="Ramya Sri Gautham" /></a>
+                <h2>About Me</h2>
+                <p>As a Master's student in Information Technology at Rutgers University - Newark, I am passionate about software development and data science. With six years of experience as a Senior Software Developer, most recently at Etisalat, I designed and implemented innovative solutions for various business domains and customers. I am actively seeking opportunities to leverage my IT expertise and learn from the vibrant tech and data science community in the USA. Let's connect and explore potential collaborations or opportunities in this ever-evolving industry.</p>
+            </header>
+
+            <section class="skills">
+                <h3>My Skills & Interests</h3>
+                <ul>
+                    <li><i class='fab fa-python' style='font-size:24px'></i> Python</li>
+                    <li><i class="fa fa-code"></i> JavaScript</li>
+                    <li><i class="fa fa-database"></i> SQL</li>
+                    <li><i class="fa fa-cogs"></i> Data Analysis</li>
+                    <li><i class="fa fa-line-chart"></i> Machine Learning</li>
+                    <li><i class="fa fa-cloud"></i> Cloud Computing (AWS)</li>
+                    <li><i class="fa fa-bar-chart"></i> Data Visualization (Tableau)</li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h3>Education Background</h3>
+                <ul>
+                    <li><i class="fa fa-university"></i> Rutgers University - Newark</li>
+                    <li><i class="fa fa-graduation-cap"></i> Master of Information Technology & Analytics (Concentration: Data Science)</li>
+                    <li><i class="fa fa-trophy"></i> Cumulative GPA: 4.0</li>
+                    <li><i class="fa fa-book"></i> Relevant Coursework: Machine Learning, Data Management, Algorithms and Data Structures, Analytics for Business Intelligence, Business Forecasting, Data Visualization, Deep Learning, Data Mining, Business Analytics Programming</li>
+                    <li><i class="fa fa-trophy"></i> Topper in Business Analytics Programming, Spring 2024</li>
+                </ul>
+            </section>
+        </article>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section class="split contact">
+            <section class="alt">
+                <h3>Address</h3>
+                <p>Edison<br />
+                    New Jersey, USA</p>
+            </section>
+            <section>
+                <h3>Email</h3>
+                <p>ramyasrigautham@gmail.com</p>
+            </section>
+            <section>
+                <h3>Social</h3>
+                <ul class="icons alt">
+                    <li><a href="https://www.linkedin.com/in/ramyasrigautham" class="icon brands fa-linkedin"><span class="label">Linked In</span></a></li>
+                    <li><a href="https://github.com/ramyasrigautham" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+
+    <!-- Copyright -->
+    <div id="copyright">
+        <ul><li>&copy; Ramya Sri Gautham</li></ul>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+    // Function to format date as April 7, 2017
+    function formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return date.toLocaleDateString('en-US', options);
+    }
+
+    // Get the current date
+    const today = new Date();
+
+    // Format the date
+    const formattedDate = formatDate(today);
+
+    // Display the date in the span element
+    document.getElementById('current-date').innerText = formattedDate;
+</script>
+
+</body>
+</html>
